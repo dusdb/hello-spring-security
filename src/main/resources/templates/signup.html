@@ -52,5 +52,8 @@
         </div>
     </div>
 </div>
+<footer class="text-center text-muted py-3 mt-4 border-top">
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 (E) a hh:mm:ss') + '  │  학번: 2171318  │  성명: 정연우'}"></p>
+</footer>
 </body>
 </html>
